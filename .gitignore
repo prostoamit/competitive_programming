@@ -54,11 +54,7 @@
 .nfs*
 
 ### vscode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 *.code-workspace
 
 ### Windows ###
@@ -86,3 +82,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# executable
+run/
